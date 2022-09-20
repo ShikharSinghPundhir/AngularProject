@@ -1,0 +1,29 @@
+.navbar{
+	background-color: #0000009c;
+	width: 100%;
+	position: fixed;
+	background-attachment: scroll;
+	z-index: 1;
+}
+.headerimg{
+	width: 65px;
+}
+.a1{
+	color: white;
+	margin-left: 26px;
+	font-size: 18px;
+}
+.a1_borderbox{
+	border: 2px solid;
+	border-color: #fbab29;
+	color: white;
+	margin-left: 26px;
+	padding: 6px;
+
+}
+.a1:hover{
+	color: #fbab29;
+}
+.a1_borderbox:hover{
+	color: #fbab29;
+}
