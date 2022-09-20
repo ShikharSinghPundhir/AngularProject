@@ -20,12 +20,13 @@ export class DisplayEmpComponent implements OnInit {
       body:new FormControl('')
     })
   }
-  addemp(){
+  display_add_emp(){
     // console.log(this.form.value)
     this.emp_service.emp_insert(this.form.value).subscribe((res)=>{
       console.log(res)
     })
   }
+  
   
 
 }

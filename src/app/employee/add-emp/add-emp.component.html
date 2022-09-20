@@ -1,1 +1,18 @@
-<p>add-emp works!</p>
+<div class="conatainer-fluid">
+    <form [formGroup]="form" (ngSubmit)="add_comp_emp()">
+        <div class="mb-3">
+            <label>Title</label>
+            <input type="text" name="" class="form-control" formControlName="title">
+        </div>
+        <div class="mb-3">
+            <label>Body</label>
+            <input type="text" name="" class="form-control" formControlName="body">
+        </div>
+        <div class="mb-3">
+            <label>Description</label>
+            <input type="text" name="" class="form-control" formControlName="description">
+        </div>
+        
+        <button class="btn btn-primary">Submit</button>
+    </form>
+</div>
