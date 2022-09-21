@@ -31,9 +31,9 @@ export class DisplayEmpComponent implements OnInit {
     })
   }
   display_add_emp(){
-    //console.log(this.form.value)
+    console.log(this.form.value)
     this.emp_service.emp_insert(this.form.value).subscribe((res)=>{
-      //console.log(res)
+      console.log(res)
     })
   }
   
