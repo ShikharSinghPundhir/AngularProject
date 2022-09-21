@@ -5,6 +5,8 @@ import { DisplayEmpComponent } from './display-emp/display-emp.component';
 import { EditEmpComponent } from './edit-emp/edit-emp.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
+import { ViewEmpComponent } from './view-emp/view-emp.component';
 
 
 
@@ -12,12 +14,14 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
   declarations: [
     AddEmpComponent,
     DisplayEmpComponent,
-    EditEmpComponent
+    EditEmpComponent,
+    ViewEmpComponent
   ],
   imports: [
     CommonModule,
     HttpClientModule,
     FormsModule,
+    RouterModule,
     ReactiveFormsModule,
   ],
   exports:[

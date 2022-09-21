@@ -16,3 +16,30 @@
         <button class="btn btn-primary">Submit</button>
     </form>
 </div>
+<div class="container-fluid ">
+
+    <div class="container  mt-5 ">
+      
+        <table class="table  table-hover  ">
+            <thead>
+                <tr>
+
+                    <th class="a">title</th>
+                    <th class="a">body</th>
+                    <th class="a">description</th>
+                </tr>
+                <tr *ngFor= "let get of viewemparray">
+                    <td>{{get.title}}</td>
+                    <td>{{get.body}}</td>
+                    <td>{{get.description}}</td>
+
+                </tr>
+
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+
+    </div>
+</div>

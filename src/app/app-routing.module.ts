@@ -1,10 +1,11 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './about/about.component';
 import { BrandsComponent } from './brands/brands.component';
 import { CareersComponent } from './careers/careers.component';
 import { ContactComponent } from './contact/contact.component';
 import { EditComponent } from './edit/edit.component';
+import { ViewEmpComponent } from './employee/view-emp/view-emp.component';
 import { FranchiseComponent } from './franchise/franchise.component';
 import { HomeComponent } from './home/home.component';
 import { OurteamComponent } from './ourteam/ourteam.component';
@@ -53,6 +54,10 @@ const routes: Routes = [
     path:"edit/:id",
     component:EditComponent
 
+  },
+  {
+    path:"view_blog/:id",
+    component: ViewEmpComponent
   },
   {
     path:"**",
