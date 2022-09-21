@@ -30,7 +30,7 @@ export class AddEmpComponent implements OnInit {
   }
   add_comp_emp(){
     this.empaddservice.add_emp_insert(this.form.value).subscribe((res)=>{
-      // console.log(res)
+      console.log(res)
     })
   }
 

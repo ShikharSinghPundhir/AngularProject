@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class EmployeeService {
   url='https://young-spire-25464.herokuapp.com/api/pn/'
-  // url1='https://young-spire-25464.herokuapp.com/api/pn/getall' 
+   
   constructor(private http : HttpClient) { }
 
   emp_insert(all_emp:any){
