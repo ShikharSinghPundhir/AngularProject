@@ -22,13 +22,14 @@ import { ViewComponent } from './view/view.component';
 import { EditComponent } from './edit/edit.component';
 import { IfComponent } from './if/if.component';
 import { ForComponent } from './for/for.component';
-import { SwitchComponent } from './switch/switch.component';
+
 import { ChildComponent } from './child/child.component';
 import { PipeComponent } from './pipe/pipe.component';
 import { ApiComponent } from './api/api.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NewsApiComponent } from './news-api/news-api.component';
 import { EmployeeModule } from './employee/employee.module';
+import { StudentModule } from './student/student.module';
 
 
 
@@ -52,7 +53,7 @@ import { EmployeeModule } from './employee/employee.module';
     EditComponent,
     IfComponent,
     ForComponent,
-    SwitchComponent,
+    
     ChildComponent,
     PipeComponent,
     ApiComponent,
@@ -66,6 +67,7 @@ import { EmployeeModule } from './employee/employee.module';
     TeacherModule,
     EmployeeModule,
     HttpClientModule,
+    StudentModule,
     AppRoutingModule
 
   ],
