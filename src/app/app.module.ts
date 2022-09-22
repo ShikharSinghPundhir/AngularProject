@@ -30,6 +30,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { NewsApiComponent } from './news-api/news-api.component';
 import { EmployeeModule } from './employee/employee.module';
 import { StudentModule } from './student/student.module';
+import { TeamModule } from './team/team.module';
 
 
 
@@ -68,6 +69,7 @@ import { StudentModule } from './student/student.module';
     EmployeeModule,
     HttpClientModule,
     StudentModule,
+    TeamModule,
     AppRoutingModule
 
   ],
