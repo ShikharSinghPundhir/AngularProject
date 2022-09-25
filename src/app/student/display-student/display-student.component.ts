@@ -12,7 +12,7 @@ export class DisplayStudentComponent implements OnInit {
 
   ngOnInit(): void {
     this.student_service.getdata().subscribe((res)=>{
-      console.log(res)
+      //console.log(res)
       this.data=res
     })
   }
