@@ -20,7 +20,7 @@
                     <td>{{s.body}}</td>
                     
                     <td><a [routerLink]="['/view_student',s.id]" class="btn btn-info">View</a><br><br>
-                        <a class="btn btn-success">Edit</a><br><br>
+                        <a [routerLink]="['/edit_student',s.id]" class="btn btn-success">Edit</a><br><br>
                         <a class="btn btn-danger">Delete</a><br><br>
                     </td>
 

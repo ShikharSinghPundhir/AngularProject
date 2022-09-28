@@ -5,6 +5,8 @@ import { StudentRoutingModule } from './student-routing.module';
 import { DisplayStudentComponent } from './display-student/display-student.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ViewStudentComponent } from './view-student/view-student.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { EditStudentComponent } from './edit-student/edit-student.component';
 
  
 
@@ -13,16 +15,19 @@ import { ViewStudentComponent } from './view-student/view-student.component';
 @NgModule({
   declarations: [
     DisplayStudentComponent,
-    ViewStudentComponent
+    ViewStudentComponent,
+    EditStudentComponent
   ],
   imports: [
     CommonModule,
     HttpClientModule,
+    ReactiveFormsModule,
     StudentRoutingModule
   ],
   exports:[
     DisplayStudentComponent,
-    ViewStudentComponent
+    ViewStudentComponent,
+    EditStudentComponent
   ]
 })
 export class StudentModule { }

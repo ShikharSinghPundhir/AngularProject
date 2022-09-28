@@ -10,4 +10,11 @@ export class StudentService {
   getdata(){
     return this.http.get(this.url+'posts')
   }
+  view_student(id:any){
+    return this.http.get(this.url+'posts/'+id)
+  }
+  updateblog(data:any,id:any){
+    return this.http.put(this.url+'posts/'+id,data)
+  }
+  
 }

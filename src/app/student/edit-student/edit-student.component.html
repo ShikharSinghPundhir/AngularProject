@@ -1,0 +1,13 @@
+<p>HELLO</p>
+<div class="card-body p-5">
+    <h2 class="text-uppercase text-center mb-5">Update A Blog</h2>
+</div>
+<form [formGroup]="form" (ngSubmit)="update()">
+    title:
+    <input type="text" formControlName="title">
+    <br><br>
+    body
+    <input type="text" formControlName="body">
+    <br><br>
+    <button>Submit</button>
+</form>
